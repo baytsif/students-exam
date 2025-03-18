@@ -37,7 +37,7 @@ async function getLaunchInfo() {
 
 async function printMostRecentLaunch() {
   const launchInfo = await getLaunchInfo();
-  console.log("Most Up-To-Date Launch:", launchInfo.name);
+  console.log("Most Up-To-Date Launch:", launchInfo.date);
 }
 
 printMostRecentLaunch();
